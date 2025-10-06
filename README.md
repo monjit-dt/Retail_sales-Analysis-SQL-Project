@@ -11,7 +11,7 @@ The goal was to clean raw transactional data, perform exploratory data analysis 
 - **Source:** Simulated retail sales dataset (2021–2024)  
 - **Files Included:**  
    - `retail Sales Analysis.csv` → Raw dataset used for import and testing
-  -`cleaning_and_exploratory_analysis.sql` → Contains database creation, data cleaning, and analysis queries  
+   -`cleaning_and_exploratory_analysis.sql` → Contains database creation, data cleaning, and analysis queries  
    
 
 **Key Columns:**  
