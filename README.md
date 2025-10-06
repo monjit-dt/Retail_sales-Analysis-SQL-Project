@@ -10,8 +10,8 @@ The goal was to clean raw transactional data, perform exploratory data analysis 
 ## 📊 Dataset  
 - **Source:** Simulated retail sales dataset (2021–2024)  
 - **Files Included:**  
-   - `retail Sales Analysis.csv` → Raw dataset used for import and testing
-   -`cleaning_and_exploratory_analysis.sql` → Contains database creation, data cleaning, and analysis queries  
+   - `retail Sales Analysis.csv` → Raw dataset used for import and testing.
+   - `cleaning_and_exploratory_analysis.sql` → Contains database creation, data cleaning, and analysis queries.
    
 
 **Key Columns:**  
@@ -38,7 +38,8 @@ Data was carefully cleaned and validated before performing any analysis:
 - ✅ Checked for duplicates and inconsistent entries  
 - ✅ Ensured valid category and gender values  
 
-**Example cleaning snippet:**  
+
+## **Example cleaning snippet:**  
 
 DELETE FROM retail_sales
 WHERE 
@@ -53,7 +54,7 @@ WHERE
 
 
 
-🔎 Exploratory Data Analysis (EDA)
+## 🔎 Exploratory Data Analysis (EDA)
 
 Key analytical questions solved using SQL:
 
@@ -79,7 +80,7 @@ What are the sales trends by time of day (Morning, Afternoon, Evening)?
 
 
 
-💡 Example Insights
+## 💡 Example Insights
 
 🛒 Clothing and Electronics were the most popular categories by sales volume.
 
@@ -93,9 +94,9 @@ What are the sales trends by time of day (Morning, Afternoon, Evening)?
 
 
 
-🧠 Sample Analysis Queries
+## 🧠 Sample Analysis Queries
 
-🏆 Top 5 Customers by Total Sales
+## 🏆 Top 5 Customers by Total Sales
 
 SELECT 
     customer_id,
@@ -105,7 +106,7 @@ GROUP BY customer_id
 ORDER BY total_sales DESC
 LIMIT 5;
 
-🌙 Shift-Wise Order Analysis
+## 🌙 Shift-Wise Order Analysis
 
 WITH hourly_sale AS (
     SELECT *,
@@ -124,7 +125,7 @@ GROUP BY shift;
 
 
 
-🛠 Tools Used
+## 🛠 Tools Used
 
 SQL for data cleaning and analysis
 
@@ -134,7 +135,7 @@ MySQL Workbench for executing and validating queries
 
 
 
-🚀 Why This Project Matters
+## 🚀 Why This Project Matters
 
 This project showcases:
 
@@ -148,7 +149,7 @@ A deep understanding of real-world retail performance metrics such as revenue, q
 
 
 
-🏁 Conclusion
+## 🏁 Conclusion
 
 The Retail Sales SQL Project highlights strong analytical thinking, practical SQL expertise, and a structured approach to solving business problems using data.
 It reflects real-world data analyst tasks — cleaning messy data, exploring KPIs, and uncovering insights that drive business growth.
